@@ -7,8 +7,8 @@
  * @description NexFord Theme
 */
 
-@import url("common/root.css");
+@import url("import/common.css");
 
-@import url("utility/root.css");
+@import url("import/utility.css");
 
-/*@import url("feature/root.css");*/
+/*@import url("import/feature.css");*/
