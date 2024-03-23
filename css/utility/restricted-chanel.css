@@ -1,5 +1,5 @@
-.iconContainer__3f9b0[aria-label="Voix (Limité) icon"] path:first-child,
-.iconContainer__3f9b0[aria-label="Voix (Verrouillé) icon"] path:first-child,
+.iconContainer__3f9b0[aria-label="Voix (Limité) icon"] svg,
+.iconContainer__3f9b0[aria-label="Voix (Verrouillé) icon"] svg,
 a.link__95dc0[aria-label="Ce salon est plein."] .iconContainer__3f9b0 svg {
     color: red;
 }
