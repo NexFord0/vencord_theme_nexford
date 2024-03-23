@@ -1,3 +1,12 @@
-@import url("../utility/notif.css");
+/**
+ * @name NexFord Theme
+ * @author NexFord
+ * @authorLink
+ * @version Production
+ * @source Server
+ * @description NexFord Theme Utility
+*/
+
+@import url("../utility/notification.css");
 @import url("../utility/restricted-chanel.css");
 @import url("../utility/cam-chanel.css");

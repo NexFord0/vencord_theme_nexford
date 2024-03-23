@@ -1,3 +1,12 @@
+/**
+ * @name NexFord Theme
+ * @author NexFord
+ * @authorLink
+ * @version Production
+ * @source Server
+ * @description NexFord Theme Feature
+*/
+
 @import url("../feature/button.css");
 @import url("../feature/scale-image.css");
 @import url("../feature/anonymize-mode.css");
