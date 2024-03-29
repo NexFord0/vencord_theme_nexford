@@ -7,11 +7,12 @@
  * @description Notification
 */
 
-.newChannel_f99b92,
-.newBadge__4b940,
-.numberBadge__50328,
-.mention__1afd3,
-.mentionsBar__4b47a
+[class^="newChannel__"],
+[class^="numberBadge__"],
+[class^="newBadge__"],
+[class^="mention__"],
+.mentionsBar__7d867
 {
     animation: 3s infinite scale;
+    scale: 2;
 }
