@@ -1,0 +1,18 @@
+.containerDefault_ae2ea4:has([data-list-item-id="channels___1218773823059525656"])
+:has(.list__02208)
+{
+    background-color: white;
+    top: 73px;
+    left: 313px;
+    position: fixed;
+    flex-direction: row;
+    padding: 0;
+}
+
+.container_f41675
+.containerDefault_ae2ea4:has(+ [data-list-item-id="channels___1218773823059525656"])
+:has(.draggable__68384)
+{
+    background-color: white;
+    border-top: 3px solid red;
+}
