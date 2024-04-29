@@ -1,5 +1,6 @@
-.roles__74a2b {
+.roles__74a2b, .roleContainer_c93b12 {
     flex-direction: column;
+    align-items: flex-start;
 }
 .role_d81130 {
     width: min-content;
