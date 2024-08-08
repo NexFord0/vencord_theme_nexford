@@ -1,0 +1,29 @@
+/**
+ * @name NexFord Theme
+ * @author NexFord
+ * @authorLink
+ * @version Production
+ * @source Server
+ * @description Anonymize mode
+*/
+
+.profileCard_bd55ee, /* profil server */
+.username_d272d6, /* member list */
+.overlayTitleText_e397d0, /* overlay voice */
+.username__73ce9, /* menue voice */
+.username_d30d99, /* chat */
+.userText__3e8b7, /* pseudo display */
+.title__10613 /* tag bootom left */
+{
+    opacity: 0;
+}
+
+.userText__3e8b7,
+[class^="username"] {
+    opacity: 0;
+}
+
+[class^="userAvatar"],
+[class^="avatar"] {
+    opacity: 0;
+}

@@ -1,0 +1,23 @@
+/**
+ * @name NexFord Theme
+ * @author NexFord
+ * @authorLink
+ * @version Production
+ * @source Server
+ * @description Animation
+*/
+
+@keyframes scale {
+    40%, 60% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.4;
+    }
+}
+
+@keyframes rotate {
+    to {
+        rotate: 1turn;
+    }
+}

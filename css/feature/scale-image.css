@@ -1,0 +1,36 @@
+/**
+ * @name NexFord Theme
+ * @author NexFord
+ * @authorLink
+ * @version Production
+ * @source Server
+ * @description Scale image
+*/
+
+.contents_f41bb2 > img:hover,
+.userAvatar_c4f005:hover,
+*:hover > svg:has(img) {
+    animation: 0.5s scaleimage forwards;
+    animation-delay: 3s;
+}
+
+.userAvatar_c4f005:hover {
+    aspect-ratio: 1;
+}
+
+@keyframes scaleimage {
+    from {
+        scale: 0;
+    }
+    from, to {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50%;
+        height: auto;
+    }
+}
