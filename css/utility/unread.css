@@ -2,14 +2,14 @@
     --unread: rgb(83, 123, 255);
 }
 
-.unread__48cf4{
-    background-color: var(--unread);
-}
+/*.unread_d8bfb3{*/
+/*    background-color: var(--unread);*/
+/*}*/
 
-.containerDefault_ae2ea4:has(.unread__48cf4) .name__4eb92 {
-    color: var(--unread);
-}
+/*.containerDefault_f6f816:has(.unread_d8bfb3) .name_d8bfb3 {*/
+/*    color: var(--unread);*/
+/*}*/
 
-.containerDefault_ae2ea4:has(.unread__48cf4):has([class^="numberBadge__"]) {
+.containerDefault_f6f816:has([class^="mentionsBadge_"])  {
     border: 2px solid red;
 }
