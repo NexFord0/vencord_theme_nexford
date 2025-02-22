@@ -6,9 +6,8 @@
  * @source Server
  * @description Restricted chanel
 */
-
-.iconContainer_d8bfb3[aria-label="Voix (Limité) icon"] svg,
-.iconContainer_d8bfb3[aria-label="Voix (Verrouillé) icon"] svg,
-a.link_d8bfb3[aria-label="Ce salon est plein."] .iconContainer_d8bfb3 svg {
+[aria-label="Voix (Limité) icon"] svg,
+[aria-label="Voix (Verrouillé) icon"] svg,
+[aria-label="Ce salon est plein."] svg {
     color: red;
 }

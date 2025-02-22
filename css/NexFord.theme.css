@@ -25,51 +25,26 @@
 
 #channel-context-open-chat,
 #user-context-add-friend,
-[id^="user-context-devmode-copy-id-"],
-[id^="channel-context-devmode-copy-id-"] {
+[id*="-devmode-copy-id-"] {
     background-color: rgb(77, 77, 77);
     color: rgb(255, 255, 255);
 }
 
 [class^="newChannel__"],
 [class^="numberBadge__"],
-[class^="newBadge__"],
+[class^="newBadge_"],
 [class^="mention__"],
-.numberBadge_df8943
+.mentionsBar__7aaec
 {
     animation: 3s infinite scale;
 }
 
-.iconContainer_d8bfb3[aria-label="Voix (Limité) icon"] svg,
-.iconContainer_d8bfb3[aria-label="Voix (Verrouillé) icon"] svg,
-a.link_d8bfb3[aria-label="Ce salon est plein."] .iconContainer_d8bfb3 svg {
+[aria-label="Voix (Limité) icon"] svg,
+[aria-label="Voix (Verrouillé) icon"] svg,
+[aria-label="Ce salon est plein."] svg {
     color: red;
 }
 
-.roles_fa2f72, .roleContainer_f51af4 {
-    flex-direction: column;
-    align-items: flex-start;
-}
-.role_e4010c {
-    width: min-content;
-}
-
-.role_e4010c, .item_d90b3d {
-    border-radius: 20px !important;
-}
-
-:root {
-    --unread: rgb(83, 123, 255);
-}
-
-.unread__48cf4{
-    background-color: var(--unread);
-}
-
-.containerDefault_ae2ea4:has(.unread__48cf4) .name__4eb92 {
-    color: var(--unread);
-}
-
-.containerDefault_ae2ea4:has(.unread__48cf4):has([class^="numberBadge__"]) {
+[class^=containerDefault_]:has([class^="mentionsBadge_"])  {
     border: 2px solid red;
 }

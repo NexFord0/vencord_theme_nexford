@@ -1,7 +1,6 @@
 #channel-context-open-chat,
 #user-context-add-friend,
-[id^="user-context-devmode-copy-id-"],
-[id^="channel-context-devmode-copy-id-"] {
+[id*="-devmode-copy-id-"] {
     background-color: rgb(77, 77, 77);
     color: rgb(255, 255, 255);
 }
