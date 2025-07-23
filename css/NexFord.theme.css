@@ -34,6 +34,7 @@
 [class^="numberBadge__"],
 [class^="newBadge_"],
 [class^="mention__"],
+[class^="unreadPill__"],
 .mentionsBar__7aaec
 {
     animation: 3s infinite scale;
